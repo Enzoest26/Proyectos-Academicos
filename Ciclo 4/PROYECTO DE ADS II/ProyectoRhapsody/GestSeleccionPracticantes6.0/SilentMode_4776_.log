@@ -1,0 +1,18 @@
+2021-03-01 20:04:23.255-05:00 DESKTOP-EMLPBGH CRRHP0010I Actor named RepresentanteOrgano already exists in Package MCU::Actor. Set the name anyway?
+
+2021-03-01 20:04:45.551-05:00 DESKTOP-EMLPBGH CRRHP0010I Actor named TitularOrgano already exists in Package MCU::Actor. Set the name anyway?
+
+2021-03-01 20:06:39.427-05:00 DESKTOP-EMLPBGH CRRHP0010I Use Case named Consultar cvs de postulantes already exists in Package MA. Set the name anyway?
+
+2021-03-01 20:28:47.911-05:00 DESKTOP-EMLPBGH CRRHP0010I Use Case named Consultar representante de entrevista already exists in Package MA. Set the name anyway?
+
+2021-03-01 20:29:47.458-05:00 DESKTOP-EMLPBGH CRRHP0010I Use Case named Consultar requerimiento de postulante already exists in Package MCU::CasoDeUso::SeleccionPracticantes. Set the name anyway?
+
+2021-03-01 20:31:11.552-05:00 DESKTOP-EMLPBGH CRRHP0010I Use Case named Registrar resultados de seleccion already exists in Package MCU::CasoDeUso::SeleccionPracticantes. Set the name anyway?
+
+2021-03-01 20:32:38.662-05:00 DESKTOP-EMLPBGH CRRHP0010I Use Case named Consultar pruebas de conocimiento already exists in Package MCU::CasoDeUso::SeleccionPracticantes. Set the name anyway?
+
+2021-03-01 20:36:59.521-05:00 DESKTOP-EMLPBGH CRRHP0010I Use Case named Reportar informe de contratacion already exists in Package MCU::CasoDeUso::SeleccionPracticantes. Set the name anyway?
+
+2021-03-01 20:37:55.146-05:00 DESKTOP-EMLPBGH CRRHP0010I Use Case named Registrar cronograma de entrevista already exists in Package MCU::CasoDeUso::SeleccionPracticantes. Set the name anyway?
+

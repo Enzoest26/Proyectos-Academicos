@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 4c1318af-ef27-4e48-a9c0-a6ee0f51adea</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">C_Contratacion</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\..\GestSeleccionPracticantes6.0.1\GestSeleccionPracticantes6.0\profiles\DesignProfile\DesignModel.sbsx</_hfilename>
+							<_hsubsystem type="a">DesignModel</_hsubsystem>
+							<_hname type="a">SubSystem</_hname>
+							<_hid type="a">GUID 4aeb0f30-0482-4438-bfe1-f073de14968d</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.1.2021::17:42:8</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\Controlador.sbsx</_hfilename>
+					<_hsubsystem type="a">MD::Capas::Controlador</_hsubsystem>
+					<_hname type="a">CapaControl</_hname>
+					<_hid type="a">GUID f2545e0b-bdf2-482f-ad10-1d9289ee86a3</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">3.1.2021::17:42:8</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">3.1.2021::17:42:8</weakCGTime>
+			<strongCGTime type="a">3.1.2021::17:42:8</strongCGTime>
+			<_defaultComposite type="s">GUID 7631e8e8-7ba9-4eb9-9459-e9c398db8a96</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.31.1969::19:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 2fbe0975-cf2d-4404-9ff7-a698eac75fc9</value>
+				<value>GUID 7631e8e8-7ba9-4eb9-9459-e9c398db8a96</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID 2fbe0975-cf2d-4404-9ff7-a698eac75fc9</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">C_Postulante</_name>
+			<_modifiedTimeWeak type="a">3.1.2021::17:42:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::17:42:8</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\C_Postulante.sbsx</_hfilename>
+					<_hsubsystem type="a">MD::Capas::Controlador</_hsubsystem>
+					<_hname type="a">C_Postulante</_hname>
+					<_hid type="a">GUID b9d32717-8d73-4a38-bb07-b74aa130bee8</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 4c1318af-ef27-4e48-a9c0-a6ee0f51adea</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID 7631e8e8-7ba9-4eb9-9459-e9c398db8a96</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

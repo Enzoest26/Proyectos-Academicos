@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 6388c02b-f953-4cd8-9eab-7260b4f7a2fb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Actor</_name>
+			<_modifiedTimeWeak type="a">3.23.2021::13:40:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.23.2021::13:40:53</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">3.23.2021::13:40:31</weakCGTime>
+			<strongCGTime type="a">7.1.2021::6:39:59</strongCGTime>
+			<_defaultComposite type="s">GUID 4ff315a9-f46e-47da-8760-02c70ad29ef2</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID b6557174-4df1-4657-99ba-fa4eca63af9d</value>
+				<value>GUID 4ff315a9-f46e-47da-8760-02c70ad29ef2</value>
+				<value>GUID 04e354e8-8484-4102-9a99-b8220fc566c9</value>
+				<value>GUID 9523e0d2-83b1-40f4-bd7e-27fbd75f22da</value>
+				<value>GUID 72d57c8b-eaf1-42cf-92ca-c4405813d5de</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IUCDiagram type="e">
+			<_id type="a">GUID b6557174-4df1-4657-99ba-fa4eca63af9d</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Actor</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">7</size>
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,0,53,142</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,255</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">109,163,217</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">Diagrama de Actores del Sistema</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::8:33:37</_modifiedTime>
+			<_lastModifiedTime type="a">7.1.2021::8:33:37</_lastModifiedTime>
+			<m_hReferencedDiagram type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_hReferencedDiagram>
+			<_defaultSubsystem type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 6388c02b-f953-4cd8-9eab-7260b4f7a2fb</_hid>
+				</IHandle>
+			</_defaultSubsystem>
+			<AggregatesList type="e">
+				<value>GUID 97bbb26d-3c66-4bd7-848b-b32863abd67e</value>
+			</AggregatesList>
+		</IUCDiagram>
+		<CGIClassChart type="e">
+			<_id type="a">GUID 97bbb26d-3c66-4bd7-848b-b32863abd67e</_id>
+			<m_type type="a">0</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hid type="a">GUID b6557174-4df1-4657-99ba-fa4eca63af9d</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<elementList type="a">4</elementList>
+			
+			<m_access type="a">'Z'</m_access>
+			<m_modified type="a">'N'</m_modified>
+			<m_nModifyDate type="a">0</m_nModifyDate>
+			<m_nCreateDate type="a">0</m_nCreateDate>
+			<m_bScaleWithZoom type="a">1</m_bScaleWithZoom>
+			<m_arrowStyle type="a">'S'</m_arrowStyle>
+			<m_pRoot type="s">GUID e7ae0b3a-37bf-4acc-ae01-bee13bedd1c0</m_pRoot>
+			<m_currentLeftTop type="a">0 0 </m_currentLeftTop>
+			<m_currentRightBottom type="a">0 0 </m_currentRightBottom>
+			<m_bFreezeCompartmentContent type="a">0</m_bFreezeCompartmentContent>
+			<AggregatesList type="e">
+				<value>GUID e7ae0b3a-37bf-4acc-ae01-bee13bedd1c0</value>
+				<value>GUID 2316c537-5fd7-4a9f-ada1-274abc1edf28</value>
+				<value>GUID 3808d3f8-555a-4385-aa5a-91a0b54caf06</value>
+				<value>GUID 2a8ae151-ca52-4251-b49f-d28521508eb6</value>
+			</AggregatesList>
+		</CGIClassChart>
+		<CGIClass type="e">
+			<_id type="a">GUID e7ae0b3a-37bf-4acc-ae01-bee13bedd1c0</_id>
+			<m_type type="a">78</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 4ff315a9-f46e-47da-8760-02c70ad29ef2</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">TopLevel</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">0 </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Operations>
+		</CGIClass>
+		<CGIBasicClass type="e">
+			<_id type="a">GUID 2316c537-5fd7-4a9f-ada1-274abc1edf28</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Actor</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">166,202,240</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.Transparent_Fill</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.FontColor@Label.Name</_Name>
+													<_Value type="a">0,0,0</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Label.Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">124</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hid type="a">GUID 04e354e8-8484-4102-9a99-b8220fc566c9</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID e7ae0b3a-37bf-4acc-ae01-bee13bedd1c0</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">EncargadoSeleccion</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">2056</m_drawBehavior>
+			<m_transform type="a">0.0489381 0 0 0.124343 272.387 57.6655 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 176 252  176 1394  1259 1394  1259 252  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+		</CGIBasicClass>
+		<CGIBasicClass type="e">
+			<_id type="a">GUID 3808d3f8-555a-4385-aa5a-91a0b54caf06</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Actor</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">166,202,240</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.Transparent_Fill</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.FontColor@Label.Name</_Name>
+													<_Value type="a">0,0,0</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Label.Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">124</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hid type="a">GUID 9523e0d2-83b1-40f4-bd7e-27fbd75f22da</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID e7ae0b3a-37bf-4acc-ae01-bee13bedd1c0</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">TitularOrgano</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">2056</m_drawBehavior>
+			<m_transform type="a">0.0489381 0 0 0.124343 441.387 57.6655 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 176 252  176 1394  1259 1394  1259 252  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+		</CGIBasicClass>
+		<CGIBasicClass type="e">
+			<_id type="a">GUID 2a8ae151-ca52-4251-b49f-d28521508eb6</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Actor</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">166,202,240</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.Transparent_Fill</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.FontColor@Label.Name</_Name>
+													<_Value type="a">0,0,0</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Label.Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">124</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hid type="a">GUID 72d57c8b-eaf1-42cf-92ca-c4405813d5de</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID e7ae0b3a-37bf-4acc-ae01-bee13bedd1c0</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">RepresentanteOrgano</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">2056</m_drawBehavior>
+			<m_transform type="a">0.0489381 0 0 0.124343 618.387 57.6655 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 176 252  176 1394  1259 1394  1259 252  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+		</CGIBasicClass>
+		<IClass type="e">
+			<_id type="a">GUID 4ff315a9-f46e-47da-8760-02c70ad29ef2</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IActor type="e">
+			<_id type="a">GUID 04e354e8-8484-4102-9a99-b8220fc566c9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">EncargadoSeleccion</_name>
+			<_modifiedTimeWeak type="a">7.1.2021::8:34:51</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">DiagramaCU_PqteSeleccion</_hname>
+					<_hid type="a">GUID f84f617f-dac7-424a-871c-fe0d27b59c99</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">3.23.2021::13:40:31</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">7.1.2021::8:34:51</weakCGTime>
+			<strongCGTime type="a">7.1.2021::7:6:19</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID cb3f4b5e-d74a-4d7d-aa14-2c49a2423343</value>
+				<value>GUID cc646bcc-24ad-4477-a8c0-e2d79bb5d181</value>
+				<value>GUID 3ea4cf15-23b7-45df-b359-3617418e890f</value>
+				<value>GUID d8a3e6c5-5c0e-4db2-8d76-cd2422da9226</value>
+				<value>GUID ec4401b7-978c-450f-ad9c-a61e8982d300</value>
+				<value>GUID e4d545c1-2231-4165-9dfe-1b7b011ba707</value>
+				<value>GUID 7157375f-bf1d-468a-83ef-cc6500deb6c0</value>
+				<value>GUID 97912aa9-f1d3-46d6-8d46-400e9c59d2af</value>
+				<value>GUID c60fc87f-37e9-43b8-8589-d2d37f540161</value>
+				<value>GUID 18e80436-2d2a-4d4b-8d04-ffd73ad8fc5c</value>
+				<value>GUID 210ac693-d5c9-48e6-8f7e-a90db571bc9f</value>
+				<value>GUID 46ba2a7a-30b6-43d8-af3a-8fe96cf968ef</value>
+				<value>GUID 333e5d86-11a4-4e60-9908-405d904c53b7</value>
+				<value>GUID 14708e25-7c39-4ee9-8545-98d367a13aed</value>
+				<value>GUID a912b745-9f4c-4210-aa33-7b7654e1863f</value>
+				<value>GUID 957898bf-6f4b-4d25-aefe-6fe692bc601e</value>
+				<value>GUID 8b45b1c6-716b-4f03-9dfa-283890c6a220</value>
+				<value>GUID c14cca26-9585-4733-a0ae-adc145ba140a</value>
+				<value>GUID bbe14ccd-b41e-4c18-acd1-3b6ad0995cb4</value>
+				<value>GUID fe2ea122-de79-48cf-9029-5ecc997e5f43</value>
+				<value>GUID 784235f2-cfef-4595-9348-dc5c69c1273e</value>
+				<value>GUID 84d3d041-3126-4d5a-b21f-f840d64f9fa3</value>
+				<value>GUID 87d1f19a-4487-407d-afb2-7e788d9e9cca</value>
+				<value>GUID 647a1e62-4045-4fac-8266-99ecf78d4246</value>
+				<value>GUID 883fd120-2206-4fb4-855f-b7a9918a3d2b</value>
+				<value>GUID 1764d461-970a-420f-856a-c36370b52234</value>
+				<value>GUID daecc5d9-fe74-4894-aafe-49a9ae7178b6</value>
+				<value>GUID b69ba2f0-cfbe-48fb-af2a-b8fd6e4d740d</value>
+				<value>GUID c9b0150d-63d4-4679-91ad-cede9b5edc05</value>
+				<value>GUID eee67e1e-f300-4ed4-9d12-9783da9a5c69</value>
+				<value>GUID fdd5d779-03fa-4bac-8057-9ba5b64e583a</value>
+				<value>GUID 2955c705-b17f-4407-ab44-10bf90e4e047</value>
+				<value>GUID d4d76007-8bb5-47ba-9ccd-86cca3c4a48b</value>
+				<value>GUID d7aa9a5b-47f7-478e-82a8-ff8735b4a18a</value>
+				<value>GUID a6d248ea-350e-4dbb-83f8-0e646de1b9ac</value>
+				<value>GUID 47e4c4d7-91d0-4a37-93d7-cf211120de77</value>
+				<value>GUID 1563ebb4-d7be-4a17-8055-dbba9fea3038</value>
+				<value>GUID ebe4f440-38b6-4e8b-b3d0-ec2a11c7bea8</value>
+				<value>GUID 067a4d01-8b92-45d4-a8fe-6005a629f7d8</value>
+				<value>GUID cf81f8fa-45ae-428f-b4ab-4ff9a1c473c0</value>
+				<value>GUID f201987f-de07-48b0-a94b-21566f53f7fb</value>
+				<value>GUID 87abf018-8b55-42de-9647-d173d6359264</value>
+			</AggregatesList>
+		</IActor>
+		<IGeneralization type="e">
+			<_id type="a">GUID cb3f4b5e-d74a-4d7d-aa14-2c49a2423343</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Consultar cvs de postulantes</_hname>
+					<_hid type="a">GUID 40d5d694-08a3-45e2-bc44-c47b0171f57e</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID cc646bcc-24ad-4477-a8c0-e2d79bb5d181</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar postulantes</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::7:38:7</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Consultar postulantes</_hname>
+					<_hid type="a">GUID 7d31d195-271d-40b6-ae1e-47d5decfaef7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Consultar postulantes</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 8cd6eece-1207-4128-bad7-db4f8bd93ffb</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 3ea4cf15-23b7-45df-b359-3617418e890f</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar postulantes_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::7:38:13</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Consultar postulantes</_hname>
+					<_hid type="a">GUID 7d31d195-271d-40b6-ae1e-47d5decfaef7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Consultar postulantes</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_1</_hname>
+					<_hid type="a">GUID 3b4db824-f431-4383-aba7-7ab29005130c</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID d8a3e6c5-5c0e-4db2-8d76-cd2422da9226</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistra bases del concurso</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::7:38:18</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Registra bases del concurso</_hname>
+					<_hid type="a">GUID 9ac6c9af-3f5e-40d4-9a27-915c26e265ec</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Registra bases del concurso</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID c48a08ca-f038-4a76-9516-2ea388d12b5f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID ec4401b7-978c-450f-ad9c-a61e8982d300</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMenuP_jspclient</_name>
+			<_modifiedTimeWeak type="a">3.1.2021::18:21:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::18:21:57</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\GUI_common.sbsx</_hfilename>
+					<_hsubsystem type="a">MD::Capas::Vista::GUI_common</_hsubsystem>
+					<_hname type="a">MenuP_jspclient</_hname>
+					<_hid type="a">GUID 626610d9-f935-433a-83f1-d8452c70b53b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\GUI_common.sbsx</_hfilename>
+					<_hsubsystem type="a">MD::Capas::Vista::GUI_common</_hsubsystem>
+					<_hclass type="a">MenuP_jspclient</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID ec23a3ea-6950-41ea-a82f-2f7d333cbe9f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID e4d545c1-2231-4165-9dfe-1b7b011ba707</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistra cvs de postulantes</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::7:38:30</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Registra cvs de postulantes</_hname>
+					<_hid type="a">GUID 5036aff9-0337-4ccc-9ce3-c5e07953a2ba</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Registra cvs de postulantes</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 97fc6c6c-fa18-4583-ade3-3e8c303a7a5e</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 7157375f-bf1d-468a-83ef-cc6500deb6c0</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistrar resultados de seleccion</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::7:38:35</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Registrar resultados de seleccion</_hname>
+					<_hid type="a">GUID 74340a4c-6060-4707-8cb4-fdd69fcafc5c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Registrar resultados de seleccion</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID acf0c371-9913-4db4-8674-f3950af2ec67</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 97912aa9-f1d3-46d6-8d46-400e9c59d2af</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsReporta informe de seleccion de postulante</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:21:10</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Reporta informe de seleccion de postulante</_hname>
+					<_hid type="a">GUID d2d42fd8-f3e4-43be-b18e-c64f92b36249</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Reporta informe de seleccion de postulante</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 77d7832a-4dab-4576-859b-077f4f57b112</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID c60fc87f-37e9-43b8-8589-d2d37f540161</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistra pruebas de conocimiento</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::0:23:6</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Registra pruebas de conocimiento</_hname>
+					<_hid type="a">GUID 266a8201-c65e-4c90-99b3-bd616c932d18</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Registra pruebas de conocimiento</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID ee3a9223-7605-493f-b902-bfe2b4652580</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 18e80436-2d2a-4d4b-8d04-ffd73ad8fc5c</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistra pruebas de conocimiento_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::0:25:30</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Registra pruebas de conocimiento</_hname>
+					<_hid type="a">GUID 266a8201-c65e-4c90-99b3-bd616c932d18</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Registra pruebas de conocimiento</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_1</_hname>
+					<_hid type="a">GUID b9117f2d-b615-4e7c-a83d-7c129337ef8f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 210ac693-d5c9-48e6-8f7e-a90db571bc9f</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistra pruebas de conocimiento_2</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::0:29:36</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Registra pruebas de conocimiento</_hname>
+					<_hid type="a">GUID 266a8201-c65e-4c90-99b3-bd616c932d18</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Registra pruebas de conocimiento</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_2</_hname>
+					<_hid type="a">GUID 4ee63094-c760-4abf-942a-c365be3717e0</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 46ba2a7a-30b6-43d8-af3a-8fe96cf968ef</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistra pruebas de conocimiento_3</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::0:30:1</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Registra pruebas de conocimiento</_hname>
+					<_hid type="a">GUID 266a8201-c65e-4c90-99b3-bd616c932d18</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Registra pruebas de conocimiento</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_3</_hname>
+					<_hid type="a">GUID e8843e10-463c-4fd3-8f62-225fe528596c</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 333e5d86-11a4-4e60-9908-405d904c53b7</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistrar requerimiento de postulante</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::0:30:29</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Registrar requerimiento de postulante</_hname>
+					<_hid type="a">GUID 55fa2a57-f4e8-4e3e-8b46-c5206f084c42</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Registrar requerimiento de postulante</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID ea9daa91-b3b2-4516-9a01-dccd5634c19c</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 14708e25-7c39-4ee9-8545-98d367a13aed</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistrar prueba de conocimientos</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::0:33:51</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Registrar prueba de conocimientos</_hname>
+					<_hid type="a">GUID 29addda3-e3f8-4cda-9619-5ba8a007d022</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Registrar prueba de conocimientos</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 6a50560a-de80-4a3a-a7e8-9ff9d3774045</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID a912b745-9f4c-4210-aa33-7b7654e1863f</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar pruebas de conocimiento_3</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.22.2010::21:28:26</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Consultar pruebas de conocimiento</_hname>
+					<_hid type="a">GUID 8b53f799-cd93-42c8-b735-61ae97123df3</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hclass type="a">Consultar pruebas de conocimiento</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID bf72e887-a35b-422e-ad2d-42311112c81b</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 957898bf-6f4b-4d25-aefe-6fe692bc601e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistrar prueba de conocimientos_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::0:34:24</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Registrar prueba de conocimientos</_hname>
+					<_hid type="a">GUID 29addda3-e3f8-4cda-9619-5ba8a007d022</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Registrar prueba de conocimientos</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_1</_hname>
+					<_hid type="a">GUID 46ce2cc5-3527-4119-b4ef-612f137d121f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 8b45b1c6-716b-4f03-9dfa-283890c6a220</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar pruebas de conocimiento_2</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.22.2010::21:28:26</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Consultar pruebas de conocimiento</_hname>
+					<_hid type="a">GUID 8b53f799-cd93-42c8-b735-61ae97123df3</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hclass type="a">Consultar pruebas de conocimiento</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_1</_hname>
+					<_hid type="a">GUID 4af92d47-fb3a-4acd-b7e9-52f00a208d3f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID c14cca26-9585-4733-a0ae-adc145ba140a</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistrar cronograma de entrevista</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:19:55</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Registrar cronograma de entrevista</_hname>
+					<_hid type="a">GUID 6aa86a6b-1818-4219-8e23-7a80823230f9</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Registrar cronograma de entrevista</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID a8c0de27-c527-41ed-b031-954c083a83fd</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID bbe14ccd-b41e-4c18-acd1-3b6ad0995cb4</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar cvs de postulantes_2</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:25:12</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Consultar cvs de postulantes</_hname>
+					<_hid type="a">GUID 40d5d694-08a3-45e2-bc44-c47b0171f57e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Consultar cvs de postulantes</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 1d44233c-1538-4f26-89bf-0cd33391a98d</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID fe2ea122-de79-48cf-9029-5ecc997e5f43</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar pruebas de conocimiento</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:27:13</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Consultar pruebas de conocimiento</_hname>
+					<_hid type="a">GUID 199defd0-1069-4839-926b-8f0a9f49e41f</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Consultar pruebas de conocimiento</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 6d8a1c83-5162-4058-9e57-555c075530c9</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 784235f2-cfef-4595-9348-dc5c69c1273e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsReportar informe de seleccion de postulantes</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:31:24</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Reportar informe de seleccion de postulantes</_hname>
+					<_hid type="a">GUID 85ff5f1a-42e3-43b1-91f9-12ed2143c09e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Reportar informe de seleccion de postulantes</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID c7b252cb-fd65-4ea7-b545-1a144756f549</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 84d3d041-3126-4d5a-b21f-f840d64f9fa3</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistrar resultados de seleccion_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:31:27</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Registrar resultados de seleccion</_hname>
+					<_hid type="a">GUID 98916aca-690a-40a6-9bec-8a5d93aabc0f</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Registrar resultados de seleccion</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 2881e28b-d205-444f-a1cd-b5db6aeb76a6</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 87d1f19a-4487-407d-afb2-7e788d9e9cca</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar pruebas de conocimiento_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:32:47</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Consultar pruebas de conocimiento</_hname>
+					<_hid type="a">GUID 32431cd6-56ee-4000-8584-8026364efa48</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Consultar pruebas de conocimiento</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 20fae718-5de9-40dd-bd86-cc8cde72d253</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 647a1e62-4045-4fac-8266-99ecf78d4246</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistrar cronograma de entrevista_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:38:3</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Registrar cronograma de entrevista</_hname>
+					<_hid type="a">GUID 789ccb13-f6eb-4a53-95ce-1ae2722f4aec</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Registrar cronograma de entrevista</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID ac00774e-2599-4f48-9021-509061f7011b</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 883fd120-2206-4fb4-855f-b7a9918a3d2b</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_MenuPrincipal_2</_name>
+			<_modifiedTimeWeak type="a">7.1.2021::7:37:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::7:37:40</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\RA_RegistrarCronogramaEntrevistas.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::ENTREVISTA::RA_RegistrarCronogramaEntrevistas</_hsubsystem>
+					<_hname type="a">CI_MenuPrincipal</_hname>
+					<_hid type="a">GUID fe81f6ac-9a49-4302-83e0-da37fefbe4c7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\RA_RegistrarCronogramaEntrevistas.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::ENTREVISTA::RA_RegistrarCronogramaEntrevistas</_hsubsystem>
+					<_hclass type="a">CI_MenuPrincipal</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 15d079b8-d399-4797-9b0e-9ecf7b5d93b9</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 1764d461-970a-420f-856a-c36370b52234</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_CrgmaEntrevista</_name>
+			<_modifiedTimeWeak type="a">7.1.2021::8:34:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::8:34:51</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\RA_RegistrarCronogramaEntrevistas.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::ENTREVISTA::RA_RegistrarCronogramaEntrevistas</_hsubsystem>
+					<_hname type="a">CI_CrgmaEntrevista</_hname>
+					<_hid type="a">GUID bd054422-43b8-4a4f-a24d-8c7b3f33eb43</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\RA_RegistrarCronogramaEntrevistas.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::ENTREVISTA::RA_RegistrarCronogramaEntrevistas</_hsubsystem>
+					<_hclass type="a">CI_CrgmaEntrevista</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID f4111f2f-bcf0-4e1b-88ad-752230b286e0</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID daecc5d9-fe74-4894-aafe-49a9ae7178b6</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar cvs de postulantes</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.22.2010::20:53:55</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Consultar cvs de postulantes</_hname>
+					<_hid type="a">GUID 40d5d694-08a3-45e2-bc44-c47b0171f57e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Consultar cvs de postulantes</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_1</_hname>
+					<_hid type="a">GUID 3101683f-264e-4763-81a9-b29b9451a574</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID b69ba2f0-cfbe-48fb-af2a-b8fd6e4d740d</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar cvs de postulantes_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.22.2010::20:54:35</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Consultar cvs de postulantes</_hname>
+					<_hid type="a">GUID 40d5d694-08a3-45e2-bc44-c47b0171f57e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Consultar cvs de postulantes</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_2</_hname>
+					<_hid type="a">GUID 246e28a2-d5dd-4e35-9059-c7e35a53f872</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID c9b0150d-63d4-4679-91ad-cede9b5edc05</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistrar requerimiento de postulante_3</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.22.2010::21:25:29</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Registrar requerimiento de postulante</_hname>
+					<_hid type="a">GUID 55fa2a57-f4e8-4e3e-8b46-c5206f084c42</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Registrar requerimiento de postulante</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_1</_hname>
+					<_hid type="a">GUID e08804e8-74ee-4e3e-997e-0e4dd8fd820b</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID eee67e1e-f300-4ed4-9d12-9783da9a5c69</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar cvs de postulantes_3</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.22.2010::21:35:48</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hname type="a">Consultar cvs de postulantes</_hname>
+					<_hid type="a">GUID 40d5d694-08a3-45e2-bc44-c47b0171f57e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SeleccionPracticantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU::CasoDeUso::SeleccionPracticantes</_hsubsystem>
+					<_hclass type="a">Consultar cvs de postulantes</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_3</_hname>
+					<_hid type="a">GUID b6259476-8c16-4fff-a4bb-a90d1e2ba4ad</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID fdd5d779-03fa-4bac-8057-9ba5b64e583a</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_MenuPrincipal_1</_name>
+			<_modifiedTimeWeak type="a">7.1.2021::7:23:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::7:23:36</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\RA_Registro_Base_Concurso.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::CONCURSO::RA_Registro_Base_Concurso</_hsubsystem>
+					<_hname type="a">CI_MenuPrincipal</_hname>
+					<_hid type="a">GUID 43008200-1dbf-4c8a-bc5b-27a84dc400a5</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\RA_Registro_Base_Concurso.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::CONCURSO::RA_Registro_Base_Concurso</_hsubsystem>
+					<_hclass type="a">CI_MenuPrincipal</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_1</_hname>
+					<_hid type="a">GUID 1dc13c93-10c8-4989-9033-cf767f9ffc50</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 2955c705-b17f-4407-ab44-10bf90e4e047</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_RegistroBaseConcurso_1</_name>
+			<_modifiedTimeWeak type="a">7.1.2021::7:23:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::7:23:58</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\RA_Registro_Base_Concurso.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::CONCURSO::RA_Registro_Base_Concurso</_hsubsystem>
+					<_hname type="a">CI_RegistroBaseConcurso</_hname>
+					<_hid type="a">GUID c1dfdaa6-d9f7-4a91-82bb-581577c243d7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\RA_Registro_Base_Concurso.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::CONCURSO::RA_Registro_Base_Concurso</_hsubsystem>
+					<_hclass type="a">CI_RegistroBaseConcurso</_hclass>
+					<_hname type="a">itsEncargadoSeleccion_1</_hname>
+					<_hid type="a">GUID 770cb1ed-75f4-4e87-a22e-ecd0206ce1df</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID d4d76007-8bb5-47ba-9ccd-86cca3c4a48b</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_MenuPrincipal_3</_name>
+			<_modifiedTimeWeak type="a">7.1.2021::7:42:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::7:42:39</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\RA_RegistrarResultadoEntrevistas.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::ENTREVISTA::RA_RegistrarResultadoEntrevistas</_hsubsystem>
+					<_hname type="a">CI_MenuPrincipal</_hname>
+					<_hid type="a">GUID 02a0f16c-e9cf-4142-895d-61f9dc8cf93d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\RA_RegistrarResultadoEntrevistas.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::ENTREVISTA::RA_RegistrarResultadoEntrevistas</_hsubsystem>
+					<_hclass type="a">CI_MenuPrincipal</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 99017bf5-93be-432e-be7a-6382b255c197</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID d7aa9a5b-47f7-478e-82a8-ff8735b4a18a</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_RegistrarResultadoEntrevista</_name>
+			<_modifiedTimeWeak type="a">7.1.2021::7:42:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::7:42:43</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\RA_RegistrarResultadoEntrevistas.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::ENTREVISTA::RA_RegistrarResultadoEntrevistas</_hsubsystem>
+					<_hname type="a">CI_RegistrarResultadoEntrevista</_hname>
+					<_hid type="a">GUID 2bb591f9-c9cd-4c8b-9b6c-6dcdbc43bb5c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\RA_RegistrarResultadoEntrevistas.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::ENTREVISTA::RA_RegistrarResultadoEntrevistas</_hsubsystem>
+					<_hclass type="a">CI_RegistrarResultadoEntrevista</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID dcd1d569-35b4-4084-b68e-f90acb03b2c1</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID a6d248ea-350e-4dbb-83f8-0e646de1b9ac</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_MenuPrincipal</_name>
+			<_modifiedTimeWeak type="a">7.1.2021::6:13:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::6:13:52</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\RA_Registro_resultados_seleccion.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::SELECCION::RA_Registro_resultados_seleccion</_hsubsystem>
+					<_hname type="a">CI_MenuPrincipal</_hname>
+					<_hid type="a">GUID 93e0a1ac-50fd-463b-83b3-9dbe1aebd401</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\RA_Registro_resultados_seleccion.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::SELECCION::RA_Registro_resultados_seleccion</_hsubsystem>
+					<_hclass type="a">CI_MenuPrincipal</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID bc8863c5-aafd-4887-83b5-32861df6370d</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 47e4c4d7-91d0-4a37-93d7-cf211120de77</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_RegistrarResultadosSeleccion</_name>
+			<_modifiedTimeWeak type="a">7.1.2021::6:13:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::6:13:55</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\RA_Registro_resultados_seleccion.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::SELECCION::RA_Registro_resultados_seleccion</_hsubsystem>
+					<_hname type="a">CI_RegistrarResultadosSeleccion</_hname>
+					<_hid type="a">GUID 0b98e2e0-c40b-4b9e-b174-e0eec43bbbe9</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\RA_Registro_resultados_seleccion.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::SELECCION::RA_Registro_resultados_seleccion</_hsubsystem>
+					<_hclass type="a">CI_RegistrarResultadosSeleccion</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 7af4f0ca-6f9e-4100-bb5f-7892f6c61aef</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 1563ebb4-d7be-4a17-8055-dbba9fea3038</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_MenuP</_name>
+			<_modifiedTimeWeak type="a">3.23.2021::12:21:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.23.2021::12:21:46</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\RA_Registrar_CVS_Postulantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::POSTULANTE::RA_Registrar_CVS_Postulantes</_hsubsystem>
+					<_hname type="a">CI_MenuP</_hname>
+					<_hid type="a">GUID d91af8f7-6dee-4955-b2dc-4d1f46fd6aab</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\RA_Registrar_CVS_Postulantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::POSTULANTE::RA_Registrar_CVS_Postulantes</_hsubsystem>
+					<_hclass type="a">CI_MenuP</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 0389c0bd-d657-486f-9222-068790c3b81e</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID ebe4f440-38b6-4e8b-b3d0-ec2a11c7bea8</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_FrmRegistroCV</_name>
+			<_modifiedTimeWeak type="a">3.23.2021::12:22:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.23.2021::12:22:5</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\RA_Registrar_CVS_Postulantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::POSTULANTE::RA_Registrar_CVS_Postulantes</_hsubsystem>
+					<_hname type="a">CI_FrmRegistroCV</_hname>
+					<_hid type="a">GUID 48ad4688-ab66-4f6a-b8fb-a0de026a9bb5</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\RA_Registrar_CVS_Postulantes.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::POSTULANTE::RA_Registrar_CVS_Postulantes</_hsubsystem>
+					<_hclass type="a">CI_FrmRegistroCV</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 26a0fc82-445f-48f5-bde9-3d0c6cb82d24</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 067a4d01-8b92-45d4-a8fe-6005a629f7d8</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsFormRegistrarBaseCon</_name>
+			<_modifiedTimeWeak type="a">3.1.2021::18:32:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::18:32:54</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\V_Concurso.sbsx</_hfilename>
+					<_hsubsystem type="a">MD::Capas::Vista::V_Concurso</_hsubsystem>
+					<_hname type="a">FormRegistrarBaseCon</_hname>
+					<_hid type="a">GUID eff23816-4cc5-4c5a-86bc-670447a718f7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\V_Concurso.sbsx</_hfilename>
+					<_hsubsystem type="a">MD::Capas::Vista::V_Concurso</_hsubsystem>
+					<_hclass type="a">FormRegistrarBaseCon</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID f468d488-1a43-4301-bed0-2d2329a3f9c5</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID cf81f8fa-45ae-428f-b4ab-4ff9a1c473c0</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsFormRegistrarCronEntrev</_name>
+			<_modifiedTimeWeak type="a">7.1.2021::6:47:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.1.2021::6:47:15</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\V_Entrevista.sbsx</_hfilename>
+					<_hsubsystem type="a">MD::Capas::Vista::V_Entrevista</_hsubsystem>
+					<_hname type="a">FormRegistrarCronEntrev</_hname>
+					<_hid type="a">GUID 70fc0821-b516-4a00-9959-96d7f38fe7a2</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\V_Entrevista.sbsx</_hfilename>
+					<_hsubsystem type="a">MD::Capas::Vista::V_Entrevista</_hsubsystem>
+					<_hclass type="a">FormRegistrarCronEntrev</_hclass>
+					<_hname type="a">itsEncargadoSeleccion</_hname>
+					<_hid type="a">GUID 174d3e51-d18c-4686-a72e-48b27010f152</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID f201987f-de07-48b0-a94b-21566f53f7fb</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsFormRegistrarResuEntrev</_name>
+			<_modifiedTimeWeak type="a">1.7.2021::6:21:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2021::6:21:4</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\V_Entrevista.sbsx</_hfilename>
+					<_hsubsystem type="a">MD::Capas::Vista::V_Entrevista</_hsubsystem>
+					<_hname type="a">FormRegistrarResuEntrev</_hname>
+					<_hid type="a">GUID 0e1925f0-dda4-4e8f-8bf7-79736626f61a</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 87abf018-8b55-42de-9647-d173d6359264</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsFormularioRegCVsPostulante</_name>
+			<_modifiedTimeWeak type="a">3.23.2021::13:40:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.23.2021::13:40:31</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\V_Postulante.sbsx</_hfilename>
+					<_hsubsystem type="a">MD::Capas::Vista::V_Postulante</_hsubsystem>
+					<_hname type="a">FormularioRegCVsPostulante</_hname>
+					<_hid type="a">GUID 72a03dbe-7aa4-4482-9794-2f3f9c452aab</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IActor type="e">
+			<_id type="a">GUID 9523e0d2-83b1-40f4-bd7e-27fbd75f22da</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">TitularOrgano</_name>
+			<_modifiedTimeWeak type="a">3.2.2021::1:41:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:41:1</_modifiedTime>
+			<weakCGTime type="a">3.2.2021::1:41:1</weakCGTime>
+			<strongCGTime type="a">7.1.2021::7:44:46</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 46a900a9-c0a7-4f50-830a-7b325cd770c2</value>
+				<value>GUID 532ac362-7eda-4782-977a-932611dd849d</value>
+			</AggregatesList>
+		</IActor>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 46a900a9-c0a7-4f50-830a-7b325cd770c2</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar representante de entrevista_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:29:59</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Consultar representante de entrevista</_hname>
+					<_hid type="a">GUID 591b1ad8-9c81-43a9-90c5-2e49ad415d9f</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Consultar representante de entrevista</_hclass>
+					<_hname type="a">itsTitularOrgano</_hname>
+					<_hid type="a">GUID 3bd351cb-ac39-499a-a5b3-b80163068b2f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 532ac362-7eda-4782-977a-932611dd849d</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsConsultar requerimiento de postulante</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:30:2</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Consultar requerimiento de postulante</_hname>
+					<_hid type="a">GUID dfb01a7f-7df7-41aa-be0c-aec1ed2226cf</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Consultar requerimiento de postulante</_hclass>
+					<_hname type="a">itsTitularOrgano</_hname>
+					<_hid type="a">GUID 1327a826-6af4-4713-a614-d7011d7e5e80</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IActor type="e">
+			<_id type="a">GUID 72d57c8b-eaf1-42cf-92ca-c4405813d5de</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">RepresentanteOrgano</_name>
+			<_modifiedTimeWeak type="a">3.2.2021::1:36:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:36:59</_modifiedTime>
+			<weakCGTime type="a">3.2.2021::1:36:59</weakCGTime>
+			<strongCGTime type="a">7.1.2021::7:49:55</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 44a78806-3636-4ffe-afd3-7f936db77085</value>
+				<value>GUID 435e967b-2932-4b53-a8ef-2a7d848044ec</value>
+				<value>GUID bd3fc2be-bc34-4b24-96b1-38a976dc51ac</value>
+			</AggregatesList>
+		</IActor>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 44a78806-3636-4ffe-afd3-7f936db77085</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistrar prueba de conocimientos</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:32:20</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Registrar prueba de conocimientos</_hname>
+					<_hid type="a">GUID 29addda3-e3f8-4cda-9619-5ba8a007d022</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Registrar prueba de conocimientos</_hclass>
+					<_hname type="a">itsRepresentanteOrgano</_hname>
+					<_hid type="a">GUID fe1ce247-c13f-4eb6-8b5d-3cc7a44d2899</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 435e967b-2932-4b53-a8ef-2a7d848044ec</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsRegistrar resultados de entrevista</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:37:9</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Registrar resultados de entrevista</_hname>
+					<_hid type="a">GUID 5dd96132-1ec9-4ca3-afab-c1ffbf57db28</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Registrar resultados de entrevista</_hclass>
+					<_hname type="a">itsRepresentanteOrgano</_hname>
+					<_hid type="a">GUID 277d1ee5-8c85-4188-b222-d3c352d2848a</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID bd3fc2be-bc34-4b24-96b1-38a976dc51ac</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsReportar informe de contratacion</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.2.2021::1:36:59</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Reportar informe de contratacion</_hname>
+					<_hid type="a">GUID 88e6c49d-6a9e-4acf-9339-167808a17078</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Reportar informe de contratacion</_hclass>
+					<_hname type="a">itsRepresentanteOrgano</_hname>
+					<_hid type="a">GUID 5b0a1429-9508-45f2-b540-481deecaf68a</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
