@@ -1,0 +1,191 @@
+.conteTabla {
+    width: 85%;
+    margin: 0 auto 3rem auto;
+}
+
+
+.cont-bus-agre {
+      margin: 1rem auto;
+    display: flex;
+    width: 85%;
+    justify-content: flex-start;
+}
+
+.cont-bus-agre>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.dataTables_length {
+    float: right !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+}
+.dataTables_length label{
+	font-weight: bold;
+	 font-size: 1.1rem;
+}
+.dataTables_filter {
+    float: left !important;
+    margin-bottom: 1rem !important;
+}
+.dataTables_filter label{
+	font-weight: bold;
+	 font-size: 1.1rem;
+}
+.dataTables_paginate {
+    margin: 0 auto !important;
+}
+
+.bottom {
+    display: flex !important;
+}
+
+.top {
+    margin: 2rem 0 !important;
+}
+/*Botones*/
+.btn-venta{
+	margin: auto auto;
+    display: flex !important;
+    padding: auto 2rem;
+    width: 50%;
+    text-align: center !important;
+    justify-content: center;
+	
+}
+
+/*-----------Lo nuevo------------*/
+/*
+.back-man-info{
+	
+	box-shadow: 0px 0px 8px 0px #BFBFBF;
+	width: 95%;
+	padding: 1rem;
+	margin: 2rem auto;
+}
+*/
+
+.back-venta-info{
+	background-color: white;
+	padding: 1rem;
+	border: 1px #BFBFBF solid;
+	margin: 2rem auto;
+	box-shadow: 0px 0px 8px 0px #BFBFBF;
+}
+
+div[name="cambiar"]{
+	grid-template-columns: 19% 30% 35% 15%;
+	
+}
+
+
+
+
+
+/*!---- Sub mantenimiento*/
+
+html,
+body {
+    margin: 0;
+   
+
+}
+
+.sub-content {
+    background-color: #fcfcfc;
+    width: 80%;
+    margin: 3rem auto;
+    padding: 3rem;
+	
+    box-shadow: 0px 0px 5px 3px rgb(71, 66, 66);
+}
+
+.sub-content h2 {
+    font-size: xx-large;
+    padding-bottom: 1rem;
+
+}
+
+.form-posicion {
+    display: grid;
+    grid-template-columns: 15% 30% 25% 30%;
+    margin: 2rem auto;
+
+}
+
+
+.form-posicion label {
+    margin-top: 0.2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.form-posicion-6 {
+    display: grid;
+    grid-template-columns: 15% 12% 21% 12% 21% 12%;
+    margin: 2rem auto;
+
+}
+
+.form-posicion-6 label {
+    margin-top: 0.2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.buscar-flotante-0,
+.buscar-flotante-1 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.678);
+    z-index: 100;
+    display: flex;
+}
+
+.buscar-vuelo-0,
+.buscar-vuelo-1 {
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 2rem auto;
+    width: 60%;
+    height: 70%;
+    padding: 3%;
+}
+
+.buscar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buscar-cerrar {
+    margin-top: -1rem;
+}
+
+.buscar-busqueda {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.buscar-busqueda div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    margin: auto 0.5rem;
+}
+
+.buscar-busqueda div label {
+    margin-top: 0.5rem;
+    margin-right: 20px;
+    font-size: large;
+}
+
+.quitar {
+    display: none;
+}

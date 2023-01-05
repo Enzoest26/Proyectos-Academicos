@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+.condi-cont {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 15% 35% 15% 35%;
+    grid-template-rows: 1fr;
+}
+
+.contenedor-repo {
+    padding: 2rem;
+    border: 1px #BFBFBF solid;
+    box-shadow: 0px 0px 8px 0px #313131;
+}
+
+
+
+.condi-cont label {
+    font-weight: bold;
+    font-size: large;
+}
+
+.condi-cont input {
+    width: 80%;
+}
+
+.botones-grid {
+
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+.btn-repor {
+
+    display: flex;
+    justify-content: center;
+}
+
+.btn-repor i {
+    font-size: xx-large;
+}
