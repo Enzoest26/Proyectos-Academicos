@@ -1,0 +1,4 @@
+153648;Matematica;2;15;28
+487956;Historia Economica;3;12;30
+157832;Matematica Aplicada;2;10;15
+324589;Relaciones publicas;1;16;20

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Usuario\Desktop\Java-Laboratorio\Proyecto_AED_2021_2\.metadata\.plugins\org.eclipse.jdt.core
+2571243418.index
+1865797976.index
+224287152.index

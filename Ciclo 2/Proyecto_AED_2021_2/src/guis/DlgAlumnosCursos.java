@@ -1,0 +1,214 @@
+package guis;
+
+import java.awt.EventQueue;
+
+import javax.swing.JDialog;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import arreglos.*;
+import clases.*;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.Toolkit;
+
+public class DlgAlumnosCursos extends JDialog implements ActionListener{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private JTextField txtAlumno;
+	private JTextField txtCurso;
+	private JButton btnProcesar;
+	private JLabel lblCodAlumno;
+	private JLabel lblCodCurso;
+	private JScrollPane scrollPane;
+	private JTextArea txtResultado;
+	
+	private final static int ALUMNO = 1;
+	private final static int CURSO = 2;
+	
+//  Tipo de operación a procesar: Adicionar, Consultar, Modificar o Eliminar
+	private int indexBoton;
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					DlgAlumnosCursos dialog = new DlgAlumnosCursos();
+					dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+					dialog.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the dialog.
+	 */
+	public DlgAlumnosCursos() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage(DlgAlumnosCursos.class.getResource("/img/JUPITER_SCHOOL_MINI_sin fondo.png")));
+		setTitle("Consulta Alumno por Curso");
+		setBounds(100, 100, 574, 353);
+		getContentPane().setLayout(null);
+		
+		txtAlumno = new JTextField();
+		txtAlumno.setEditable(false);
+		txtAlumno.setBounds(97, 11, 86, 20);
+		getContentPane().add(txtAlumno);
+		txtAlumno.setColumns(10);
+		
+		txtCurso = new JTextField();
+		txtCurso.setEditable(false);
+		txtCurso.setBounds(97, 42, 86, 20);
+		getContentPane().add(txtCurso);
+		txtCurso.setColumns(10);
+		
+		btnProcesar = new JButton("Procesar");
+		btnProcesar.setEnabled(false);
+		btnProcesar.addActionListener(this);
+		btnProcesar.setBounds(225, 62, 89, 23);
+		getContentPane().add(btnProcesar);
+		
+		lblCodAlumno = new JLabel("Alumno");
+		lblCodAlumno.setEnabled(false);
+		lblCodAlumno.setBounds(10, 14, 46, 14);
+		getContentPane().add(lblCodAlumno);
+		
+		lblCodCurso = new JLabel("Curso");
+		lblCodCurso.setEnabled(false);
+		lblCodCurso.setBounds(10, 45, 46, 14);
+		getContentPane().add(lblCodCurso);
+		
+		scrollPane = new JScrollPane();
+		scrollPane.setBounds(10, 96, 538, 207);
+		getContentPane().add(scrollPane);
+		
+		txtResultado = new JTextArea();
+		txtResultado.setEnabled(false);
+		scrollPane.setViewportView(txtResultado);
+		
+		btnAlumno = new JButton("Alumno");
+		btnAlumno.addActionListener(this);
+		btnAlumno.setBounds(445, 10, 89, 23);
+		getContentPane().add(btnAlumno);
+		
+		btnCurso = new JButton("Curso");
+		btnCurso.addActionListener(this);
+		btnCurso.setBounds(445, 41, 89, 23);
+		getContentPane().add(btnCurso);
+		
+		btnVolver = new JButton("Volver");
+		btnVolver.setEnabled(false);
+		btnVolver.addActionListener(this);
+		btnVolver.setBounds(323, 10, 89, 23);
+		getContentPane().add(btnVolver);
+
+	}
+	/*-------------Declaración global---------------------*/
+	ArregloMatricula ma = new ArregloMatricula();
+	ArregloAlumnos al = new ArregloAlumnos();
+	ArregloCursos cu = new ArregloCursos();
+	private JButton btnAlumno;
+	private JButton btnCurso;
+	private JButton btnVolver;
+	public void actionPerformed(ActionEvent e) {
+		if (e.getSource() == btnVolver) {
+			actionPerformedBtnVolver(e);
+		}
+		if (e.getSource() == btnCurso) {
+			actionPerformedBtnCurso(e);
+		}
+		if (e.getSource() == btnAlumno) {
+			actionPerformedBtnAlumno(e);
+		}
+		if (e.getSource() == btnProcesar) {
+			actionPerformedBtnProcesar(e);
+		}
+	}
+	protected void actionPerformedBtnProcesar(ActionEvent e) {
+		if(indexBoton == ALUMNO) {
+			alumno();
+		}
+		if(indexBoton == CURSO) {
+			curso();
+		}
+	}
+	protected void actionPerformedBtnAlumno(ActionEvent e) {
+		indexBoton = ALUMNO;
+		btnVolver.setEnabled(true);
+		txtAlumno.setEditable(true);
+		lblCodAlumno.setEnabled(true);
+		btnProcesar.setEnabled(true);
+		btnAlumno.setEnabled(false);
+		btnCurso.setEnabled(false);
+		
+	}
+	protected void actionPerformedBtnCurso(ActionEvent e) {
+		indexBoton = CURSO;
+		txtCurso.setEditable(true);
+		btnAlumno.setEnabled(false);
+		btnCurso.setEnabled(false);
+		lblCodCurso.setEnabled(true);
+		btnVolver.setEnabled(true);
+		btnProcesar.setEnabled(true);
+	}
+	protected void actionPerformedBtnVolver(ActionEvent e) {
+		btnAlumno.setEnabled(true);
+		btnCurso.setEnabled(true);
+		btnVolver.setEnabled(false);
+		btnProcesar.setEnabled(false);
+		lblCodCurso.setEnabled(false);
+		lblCodAlumno.setEnabled(false);
+		txtCurso.setEditable(false);
+		txtAlumno.setEditable(false);
+	}
+	
+	void curso() {
+		limpieza();
+		int codCurso = leerCodCurso();
+		imprimir("Asignatura: " + "\n" + cu.buscar(codCurso).getAsignatura() + "\n");
+		imprimir("Cursos: ");
+		for(int i = 0; i<ma.tamanio();i++) {
+			Matricula m = ma.obtener(i);
+			if(codCurso == m.getCodCurso()) {
+				int codAlumno = m.getCodAlumno();
+				Alumno a = al.buscar(codAlumno);
+				imprimir("" + a.getNombres());
+			}
+		}
+	}
+	void alumno() {
+		limpieza();
+		int codAlumno = leerCodAlumno();
+		imprimir("Nombre del estudiante es: " + al.buscar(codAlumno).getNombres());
+		imprimir("Cursos: ");
+		for(int i = 0; i<ma.tamanio();i++) {
+			Matricula m = ma.obtener(i);
+			if(codAlumno == m.getCodAlumno()) {
+				int codCurso = m.getCodCurso();
+				Curso c = cu.buscar(codCurso);
+				imprimir("" + c.getAsignatura());
+			}
+		}
+	}
+	void imprimir(String s) {
+		txtResultado.append(s + "\n");
+	}
+	int leerCodAlumno() {
+		return Integer.parseInt(txtAlumno.getText());
+	}
+	int leerCodCurso() {
+		return Integer.parseInt(txtCurso.getText());
+	}
+	void limpieza() {
+		txtResultado.setText("");
+	}
+	
+}
